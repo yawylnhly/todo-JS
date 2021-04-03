@@ -10,7 +10,7 @@ addItem.addEventListener('click', function() {
   container.appendChild(paragraph)
   inputField.value = "";
   paragraph.addEventListener('click', function() {
-    paragraph.style = " display: none";
-})
+  	paragraph.style = " display: none";
+  })
   
 }})
